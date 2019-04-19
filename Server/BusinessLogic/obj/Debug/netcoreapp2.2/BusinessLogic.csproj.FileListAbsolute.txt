@@ -1,0 +1,12 @@
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\bin\Debug\netcoreapp2.2\BusinessLogic.deps.json
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\bin\Debug\netcoreapp2.2\BusinessLogic.dll
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\bin\Debug\netcoreapp2.2\BusinessLogic.pdb
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\obj\Debug\netcoreapp2.2\BusinessLogic.csprojAssemblyReference.cache
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\obj\Debug\netcoreapp2.2\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\obj\Debug\netcoreapp2.2\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\obj\Debug\netcoreapp2.2\BusinessLogic.AssemblyInfo.cs
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\obj\Debug\netcoreapp2.2\BusinessLogic.csproj.CopyComplete
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\obj\Debug\netcoreapp2.2\BusinessLogic.dll
+C:\Users\Ignacio\source\repos\VirusTotal\BusinessLogic\obj\Debug\netcoreapp2.2\BusinessLogic.pdb

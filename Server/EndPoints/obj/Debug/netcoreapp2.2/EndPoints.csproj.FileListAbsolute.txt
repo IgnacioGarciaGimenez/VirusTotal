@@ -1,0 +1,14 @@
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\bin\Debug\netcoreapp2.2\EndPoints.deps.json
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\bin\Debug\netcoreapp2.2\EndPoints.dll
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.csprojAssemblyReference.cache
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.csproj.CoreCompileInputs.cache
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.AssemblyInfoInputs.cache
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.AssemblyInfo.cs
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\bin\Debug\netcoreapp2.2\EndPoints.pdb
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\bin\Debug\netcoreapp2.2\BusinessLogic.dll
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\bin\Debug\netcoreapp2.2\BusinessLogic.pdb
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.csproj.CopyComplete
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.dll
+C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.pdb
