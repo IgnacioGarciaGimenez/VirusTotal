@@ -12,3 +12,17 @@ C:\Users\Ignacio\source\repos\VirusTotal\Repository\bin\Debug\netcoreapp2.2\Enti
 C:\Users\Ignacio\source\repos\VirusTotal\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CopyComplete
 C:\Users\Ignacio\source\repos\VirusTotal\Repository\obj\Debug\netcoreapp2.2\Repository.dll
 C:\Users\Ignacio\source\repos\VirusTotal\Repository\obj\Debug\netcoreapp2.2\Repository.pdb
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\bin\Debug\netcoreapp2.2\Repository.deps.json
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\bin\Debug\netcoreapp2.2\Repository.dll
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\bin\Debug\netcoreapp2.2\Repository.pdb
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\bin\Debug\netcoreapp2.2\BusinessLogic.dll
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\bin\Debug\netcoreapp2.2\BusinessLogic.pdb
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\obj\Debug\netcoreapp2.2\Repository.csprojAssemblyReference.cache
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfoInputs.cache
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfo.cs
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CopyComplete
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\obj\Debug\netcoreapp2.2\Repository.dll
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Repository\obj\Debug\netcoreapp2.2\Repository.pdb

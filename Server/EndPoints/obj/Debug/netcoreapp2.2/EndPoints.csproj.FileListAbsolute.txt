@@ -12,3 +12,17 @@ C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\bin\Debug\netcoreapp2.2\Entit
 C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.csproj.CopyComplete
 C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.dll
 C:\Users\Ignacio\source\repos\VirusTotal\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.pdb
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\bin\Debug\netcoreapp2.2\EndPoints.deps.json
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\bin\Debug\netcoreapp2.2\EndPoints.dll
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\bin\Debug\netcoreapp2.2\EndPoints.pdb
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\bin\Debug\netcoreapp2.2\BusinessLogic.dll
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\bin\Debug\netcoreapp2.2\BusinessLogic.pdb
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.csprojAssemblyReference.cache
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.csproj.CoreCompileInputs.cache
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.AssemblyInfoInputs.cache
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.AssemblyInfo.cs
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.csproj.CopyComplete
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.dll
+C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\EndPoints\obj\Debug\netcoreapp2.2\EndPoints.pdb
