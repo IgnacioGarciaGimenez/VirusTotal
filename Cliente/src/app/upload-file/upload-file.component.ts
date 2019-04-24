@@ -21,7 +21,7 @@ export class UploadFileComponent {
 
   public analyzeFile() {
     if (this.file) {
-      this.fileServices.uploadFile(this.file);
+      console.log(this.fileServices.uploadFileMocked(this.file));
     } else {
       this.errorOnFile = 'Debe seleccionar un archivo primero.';
     }

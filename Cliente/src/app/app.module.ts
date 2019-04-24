@@ -6,6 +6,7 @@ import {UploadFileComponent} from './upload-file/upload-file.component';
 import {SharedModule} from './shared/shared.module';
 import {HttpClientModule} from '@angular/common/http';
 import {FileServices} from './services/file.services';
+import {MockDataServices} from './mock-data/mock-data.services';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import {FileServices} from './services/file.services';
     SharedModule
   ],
   bootstrap: [AppComponent],
-  providers: [FileServices],
+  providers: [FileServices, MockDataServices],
 })
 export class AppModule {
 }
