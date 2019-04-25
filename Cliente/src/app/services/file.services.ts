@@ -31,7 +31,7 @@ export class FileServices {
     );
   }
 
-  uploadFileMocked(file) {
+  uploadFileMocked(file): FileReportModel[] {
     return this.mockDataServices.getFileMocked().map(this.handleFileReportResponse);
   }
 

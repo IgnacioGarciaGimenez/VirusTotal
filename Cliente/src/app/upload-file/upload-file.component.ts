@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {FileServices} from '../services/file.services';
 import {el} from '@angular/platform-browser/testing/src/browser_util';
+import {FileReportModel} from '../model/file-report.model';
 
 @Component({
   selector: 'app-upload-file',
@@ -10,6 +11,7 @@ import {el} from '@angular/platform-browser/testing/src/browser_util';
 
 export class UploadFileComponent {
   private file;
+  private fileReport: FileReportModel;
   public errorOnFile = '';
 
   constructor(private fileServices: FileServices) {
@@ -21,7 +23,8 @@ export class UploadFileComponent {
 
   public analyzeFile() {
     if (this.file) {
-      console.log(this.fileServices.uploadFileMocked(this.file));
+      this.fileReport =  this.fileServices.uploadFileMocked(this.file)[0];
+      console.log(this.fileReport);
     } else {
       this.errorOnFile = 'Debe seleccionar un archivo primero.';
     }

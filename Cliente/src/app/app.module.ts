@@ -7,11 +7,13 @@ import {SharedModule} from './shared/shared.module';
 import {HttpClientModule} from '@angular/common/http';
 import {FileServices} from './services/file.services';
 import {MockDataServices} from './mock-data/mock-data.services';
+import {VisualizeFileComponent} from './visualize-file/visualize-file.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UploadFileComponent,
+    VisualizeFileComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'ng-cli-universal'}),

@@ -1,0 +1,31 @@
+<div *ngIf="fileReport">
+  <div class="row">
+    <div class="col"> ICONO FILE</div>
+    <div class="col">
+      <div class="row">
+        <h5>hash (SHA-256): <span class="text-secundary">{{fileReport.hash}}</span></h5>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Antivirus</th>
+          <th>Detectado</th>
+          <th>Version antivirus</th>
+          <th>Malware</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let scan of fileReport.scans | keyvalue">
+           <td>{{scan.key}}</td>
+           <td>{{scan.value.detected}}</td>
+           <td>{{scan.value.version}}</td>
+           <td>{{scan.value.malware != '' ? scan.value.malware : '-' }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
