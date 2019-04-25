@@ -13365,11 +13365,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\VirusTotal\\VirusTotal.csproj",
+      "projectUniqueName": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\VirusTotal\\VirusTotal.csproj",
       "projectName": "VirusTotal",
-      "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\VirusTotal\\VirusTotal.csproj",
+      "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\VirusTotal\\VirusTotal.csproj",
       "packagesPath": "C:\\Users\\Ignacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\VirusTotal\\obj\\",
+      "outputPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\VirusTotal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13388,14 +13388,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\EndPoints\\EndPoints.csproj": {
-              "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\EndPoints\\EndPoints.csproj"
+            "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\EndPoints\\EndPoints.csproj": {
+              "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\EndPoints\\EndPoints.csproj"
             },
-            "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Repository\\Repository.csproj"
+            "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\Repository\\Repository.csproj"
             },
-            "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\VirusTotalAdapter\\VirusTotalAdapter.csproj": {
-              "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\VirusTotalAdapter\\VirusTotalAdapter.csproj"
+            "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\VirusTotalAdapter\\VirusTotalAdapter.csproj": {
+              "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\VirusTotalAdapter\\VirusTotalAdapter.csproj"
             }
           }
         }

@@ -2,6 +2,7 @@
 using BusinessLogic.VirusTotal;
 using Entities;
 using System;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace BusinessLogic
@@ -25,12 +26,26 @@ namespace BusinessLogic
                 FileReport vtReport = await _virusTotal.GetFileReportAsync(sha256);
                 if (vtReport == null)
                 {
-                    return new Output
+                    ScanResult scanResult = _repository.GetScanResult(sha256);
+                    if (scanResult == null)
                     {
-                        Hash = sha256,
-                        RequestResult = 0,
-                        Scans = null
-                    };
+                        return new Output
+                        {
+                            Hash = sha256,
+                            RequestResult = 0,
+                            Scans = null
+                        };
+                    }
+                    else
+                    {
+                        return new Output
+                        {
+                            Hash = sha256,
+                            RequestResult = 2,
+                            Scans = null
+                        };
+                    }
+                   
                 }
                 else
                 {
@@ -54,9 +69,22 @@ namespace BusinessLogic
             }
         }
 
-        public void ScanFile(byte[] file, string filename)
+        
+        public async Task<bool> ScanFile(Stream file, string filename, string hash)
         {
-            throw new NotImplementedException();
+            FileReport fr = _repository.GetFileReport(hash);
+            if (fr == null)
+            {
+                ScanResult srdb = _repository.GetScanResult(hash);
+                if (srdb == null)
+                {
+                    var sr = await _virusTotal.ScanFileAsync(file, filename);
+                    _repository.SaveScanResult(sr);
+                    return true;
+                }
+            }
+            return false;
+            
         }
     }
 }

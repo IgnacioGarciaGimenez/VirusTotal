@@ -2,6 +2,7 @@
 using Entities;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 using VirusTotalNET;
 
@@ -36,5 +37,18 @@ namespace VirusTotalAdapter
             }
             return null;
         }
+
+        public async Task<ScanResult> ScanFileAsync(Stream stream, string filename)
+        {
+            var sr = await virusTotal.ScanFileAsync(stream, filename);
+            return new ScanResult
+            {
+                SHA256 = sr.SHA256,
+                Permalink = sr.Permalink,
+                Analizado = false
+            };
+        }
+
+        
     }
 }

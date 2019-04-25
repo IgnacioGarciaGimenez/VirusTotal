@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Ignacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
