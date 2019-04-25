@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {FileServices} from '../services/file.services';
 import {el} from '@angular/platform-browser/testing/src/browser_util';
 import {FileReportModel} from '../model/file-report.model';
+import * as sha256 from 'fast-sha256';
 
 @Component({
   selector: 'app-upload-file',
@@ -30,3 +31,4 @@ export class UploadFileComponent {
     }
   }
 }
+
