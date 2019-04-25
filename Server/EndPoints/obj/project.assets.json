@@ -7642,11 +7642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\EndPoints\\EndPoints.csproj",
+      "projectUniqueName": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\EndPoints\\EndPoints.csproj",
       "projectName": "EndPoints",
-      "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\EndPoints\\EndPoints.csproj",
+      "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\EndPoints\\EndPoints.csproj",
       "packagesPath": "C:\\Users\\Ignacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\EndPoints\\obj\\",
+      "outputPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\EndPoints\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7665,8 +7665,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\BusinessLogic\\BusinessLogic.csproj"
+            "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\BusinessLogic\\BusinessLogic.csproj"
             }
           }
         }

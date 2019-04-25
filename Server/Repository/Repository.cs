@@ -9,12 +9,14 @@ namespace Repository
     public class Repository : IRepository
     {
         private readonly IMongoCollection<FileReportDao> _fileReports;
+        private readonly IMongoCollection<ScanResultDao> _scanResults;
 
         public Repository()
         {
             var client = new MongoClient("mongodb://admin:Diamondbad123@localhost:27017");
             var db = client.GetDatabase("VirusTotal");
             _fileReports = db.GetCollection<FileReportDao>("FileReports");
+            _scanResults = db.GetCollection<ScanResultDao>("ScanResults");
         }
 
         public FileReport GetFileReport(string sha256)
@@ -62,6 +64,35 @@ namespace Repository
                 Scans = scans
             };
             _fileReports.InsertOne(report);
+        }
+
+        public ScanResult GetScanResult(string sha256)
+        {
+            ScanResultDao scanResult = _scanResults.Find<ScanResultDao>(sr => sr.SHA256 == sha256).FirstOrDefault();
+            if (scanResult != null)
+            {
+                ScanResult output = new ScanResult
+                {
+                    SHA256 = scanResult.SHA256,
+                    Permalink = scanResult.Permalink,
+                    Analizado = scanResult.Analizado
+                };
+                return output;
+            }
+            return null;
+            
+        }
+
+        public void SaveScanResult(ScanResult scanResult)
+        {
+            ScanResultDao toSave = new ScanResultDao
+            {
+                SHA256 = scanResult.SHA256,
+                Permalink = scanResult.Permalink,
+                Analizado = scanResult.Analizado
+            };
+            _scanResults.InsertOne(toSave);
+
         }
 
         

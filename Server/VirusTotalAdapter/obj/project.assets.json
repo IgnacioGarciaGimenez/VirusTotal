@@ -3540,11 +3540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\VirusTotalAdapter\\VirusTotalAdapter.csproj",
+      "projectUniqueName": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\VirusTotalAdapter\\VirusTotalAdapter.csproj",
       "projectName": "VirusTotalAdapter",
-      "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\VirusTotalAdapter\\VirusTotalAdapter.csproj",
+      "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\VirusTotalAdapter\\VirusTotalAdapter.csproj",
       "packagesPath": "C:\\Users\\Ignacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\VirusTotalAdapter\\obj\\",
+      "outputPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\VirusTotalAdapter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3563,8 +3563,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\BusinessLogic\\BusinessLogic.csproj"
+            "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\Ignacio\\source\\repos\\VirusTotal\\Server\\BusinessLogic\\BusinessLogic.csproj"
             }
           }
         }
