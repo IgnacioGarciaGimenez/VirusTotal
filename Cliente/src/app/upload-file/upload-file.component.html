@@ -12,8 +12,8 @@
     <div class="row">
       <button type="button" class="btn btn-submit allign-center " (click)="analyzeFile()">Analizar</button>
     </div>
-    <div *ngIf="file">
-      <app-visualize-file [fileReport]="fileReport"></app-visualize-file>
-    </div>
   </div>
+      <div *ngIf="file">
+        <app-visualize-file [fileReport]="fileReport"></app-visualize-file>
+      </div>
 </div>

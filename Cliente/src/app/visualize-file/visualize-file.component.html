@@ -1,31 +1,38 @@
 <div *ngIf="fileReport">
+  <img src="assets/images/visualization-file-separator.png" alt="visualize file icon" id="visualize-separator" class="img-thumbnai allign-center">
+  <div class="container-fluid">
   <div class="row">
-    <div class="col"> ICONO FILE</div>
-    <div class="col">
+    <div class="col-2 text-center">
+     <img src="assets/images/visualize-file.png" alt="visualize file icon" id="visualize-icon" class="img-thumbnai allign-center"></div>
+    <div class="col-10">
       <div class="row">
-        <h5>hash (SHA-256): <span class="text-secundary">{{fileReport.hash}}</span></h5>
+      <div class="col">
+        <h5>Hash:</h5>
+        <div class="text-secundary" id="file-hash"> {{fileReport.hash}}</div>
+        </div>
       </div>
     </div>
   </div>
   <div class="row">
-    <table class="table">
+    <table class="table table-hover" id="table-head">
       <thead>
         <tr>
-          <th>Antivirus</th>
-          <th>Detectado</th>
-          <th>Version antivirus</th>
-          <th>Malware</th>
+          <th class="text-center">Antivirus</th>
+          <th class="text-center">Virus detectado</th>
+          <th class="text-center">Version antivirus</th>
+          <th class="text-center">Malware</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let scan of fileReport.scans | keyvalue">
-           <td>{{scan.key}}</td>
-           <td>{{scan.value.detected}}</td>
-           <td>{{scan.value.version}}</td>
-           <td>{{scan.value.malware != '' ? scan.value.malware : '-' }}</td>
+           <td class="text-center">{{scan.key}}</td>
+           <td class="text-center">{{scan.value.detected ? 'Si': 'No'}}</td>
+           <td class="text-center">{{scan.value.version}}</td>
+           <td class="text-center">{{scan.value.malware != '' ? scan.value.malware : '-' }}</td>
         </tr>
       </tbody>
     </table>
+  </div>
   </div>
 </div>
 
