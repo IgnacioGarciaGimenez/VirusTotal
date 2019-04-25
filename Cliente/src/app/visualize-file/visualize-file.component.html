@@ -28,7 +28,7 @@
            <td class="text-center">{{scan.key}}</td>
            <td class="text-center">{{scan.value.detected ? 'Si': 'No'}}</td>
            <td class="text-center">{{scan.value.version}}</td>
-           <td class="text-center">{{scan.value.malware != '' ? scan.value.malware : '-' }}</td>
+           <td class="text-center">{{scan.value.malware ? scan.value.malware : ' - ' }}</td>
         </tr>
       </tbody>
     </table>
