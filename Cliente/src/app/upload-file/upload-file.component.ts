@@ -26,40 +26,50 @@ export class UploadFileComponent {
   }
 
   public analyzeFile() {
+    const hash = this.generateHash(this.file);
+    this.fileServices.analyzeHash(hash).subscribe(
+      (dataR) => {
+        const fileR = this.fileServices.handleFileReportResponse(dataR);
+        this.manageFileReportResponse(fileR);
+      },
+      (error1 => {
+        console.error('An error ocurred trying to get the file info');
+        throwError(error1);
+      })
+    );
+  }
+
+  private verifyAndAnalyzeFile() {
     if (this.file) {
-      const hash = this.generateHash(this.file);
-      this.fileServices.analyzeHash(hash).subscribe(
-        (dataR) => {
-          const fileR =  this.fileServices.handleFileReportResponse(dataR);
-          this.manageFileReportResponse(fileR);
-        },
-        (error1 => {
-          console.error('An error ocurred trying to get the file info');
-          throwError(error1);
-        })
-      );
+      if (this.file.file.mediaType === 'application/x-msdownload') {
+        this.errorOnFile = '';
+        if (this.programmerMode) {
+          this.analyzeFile();
+        } else {
+          this.analyzeHashedFile();
+        }
+      } else {
+        this.errorOnFile = 'Solo se permiten archivos ejecutables';
+      }
     } else {
       this.errorOnFile = 'Debe seleccionar un archivo primero.';
+
     }
   }
 
   public analyzeHashedFile() {
-    if (this.file) {
-      const fileR = this.fileServices.analyzeHashMocked();
-      this.manageFileReportResponse(fileR);
-    } else {
-      this.errorOnFile = 'Debe seleccionar un archivo primero.';
-    }
+    const fileR = this.fileServices.analyzeHashMocked();
+    this.manageFileReportResponse(fileR);
   }
 
-  private manageFileReportResponse(fileR: FileReportModel){
+  private manageFileReportResponse(fileR: FileReportModel) {
     if (fileR.requestResult === 1) {
       // the file data was on the Database
       this.fileReport = fileR;
     } else {
       this.fileServices.uploadFile(this.file).subscribe(
         (dataR) => {
-          this.fileReport =  this.fileServices.handleFileReportResponse(dataR);
+          this.fileReport = this.fileServices.handleFileReportResponse(dataR);
           this.manageFileReportResponse(fileR);
         },
         (error1 => {
@@ -75,6 +85,7 @@ export class UploadFileComponent {
     const hash = '42e449fbbbe98aba4c79d1434d0b11923379faba943e888e0966766379dcdf28';
     return hash;
   }
+
   public changeProgrammerMode() {
     this.programmerMode = !this.programmerMode;
   }

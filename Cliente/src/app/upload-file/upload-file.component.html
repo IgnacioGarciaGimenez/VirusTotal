@@ -19,10 +19,10 @@
       <app-select-file (fileSelected)="fileSelected($event)" class="allign-center" id="selector"></app-select-file>
     </div>
     <div class="row">
-      <button [hidden]="!programmerMode" type="button" class="btn btn-submit allign-center " (click)="analyzeFile()">Analizar</button>
-      <button [hidden]="programmerMode"  type="button" class="btn btn-submit allign-center " (click)="analyzeHashedFile()">Analizar - TEST</button>
+      <button [hidden]="!programmerMode" type="button" class="btn btn-submit allign-center " (click)="verifyAndAnalyzeFile()">Analizar</button>
+      <button [hidden]="programmerMode"  type="button" class="btn btn-submit allign-center " (click)="verifyAndAnalyzeFile()">Analizar - TEST</button>
     </div>
-    <div class="row" *ngIf="file == null && errorOnFile != null">
+    <div class="row" *ngIf="errorOnFile">
       <div class="text-danger allign-center"><strong>{{errorOnFile}}</strong></div>
     </div>
   </div>
