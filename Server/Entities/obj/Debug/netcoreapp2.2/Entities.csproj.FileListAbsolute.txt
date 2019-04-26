@@ -6,12 +6,12 @@ C:\Users\Ignacio\source\repos\VirusTotal\Entities\obj\Debug\netcoreapp2.2\Entiti
 C:\Users\Ignacio\source\repos\VirusTotal\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfo.cs
 C:\Users\Ignacio\source\repos\VirusTotal\Entities\obj\Debug\netcoreapp2.2\Entities.dll
 C:\Users\Ignacio\source\repos\VirusTotal\Entities\obj\Debug\netcoreapp2.2\Entities.pdb
-C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Entities\bin\Debug\netcoreapp2.2\Entities.deps.json
-C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Entities\bin\Debug\netcoreapp2.2\Entities.dll
-C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Entities\bin\Debug\netcoreapp2.2\Entities.pdb
-C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.csprojAssemblyReference.cache
-C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.csproj.CoreCompileInputs.cache
-C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfoInputs.cache
-C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfo.cs
-C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.dll
-C:\Users\Terminal\Desktop\Trabajo Maxi\Facultad\5to Año\Arquitectura de software\Repo git\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\Ignacio\source\repos\VirusTotal\Server\Entities\bin\Debug\netcoreapp2.2\Entities.deps.json
+C:\Users\Ignacio\source\repos\VirusTotal\Server\Entities\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\Ignacio\source\repos\VirusTotal\Server\Entities\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\Ignacio\source\repos\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.csprojAssemblyReference.cache
+C:\Users\Ignacio\source\repos\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Ignacio\source\repos\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfoInputs.cache
+C:\Users\Ignacio\source\repos\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfo.cs
+C:\Users\Ignacio\source\repos\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.dll
+C:\Users\Ignacio\source\repos\VirusTotal\Server\Entities\obj\Debug\netcoreapp2.2\Entities.pdb

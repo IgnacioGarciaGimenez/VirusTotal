@@ -9,6 +9,8 @@ namespace BusinessLogic.Repository
     {
         FileReport GetFileReport(string sha256);
         void SaveFileReport(FileReport fileReport);
+        ScanResult GetScanResult(string sha256);
+        void SaveScanResult(ScanResult scanResult);
         
     }
 }
