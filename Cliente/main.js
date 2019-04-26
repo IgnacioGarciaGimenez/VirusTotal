@@ -5,7 +5,7 @@ const url = require("url");
 let win;
 
 function createWindow() {
-  win = new BrowserWindow({ width: 800, height: 600 });
+  win = new BrowserWindow({ width: 1230, height: 800, minimizable:false});
 
   // load the dist folder from Angular
   win.loadURL(
@@ -22,6 +22,7 @@ function createWindow() {
   win.on("closed", () => {
     win = null;
   });
+  win.setAutoHideMenuBar(true);
 }
 
 app.on("ready", createWindow);
