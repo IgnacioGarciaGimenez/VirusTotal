@@ -1,0 +1,32 @@
+<div id="main-container">
+
+  <div class="container-fluid">
+    <div class="row main-tittle">
+      <h1 class="allign-center ">Analizador de archivos</h1>
+    </div>
+    <div class="row">
+      <div class="custom-control custom-switch test-mode">
+        <input type="checkbox" class="custom-control-input" id="customSwitches"
+        (change)="changeProgrammerMode($event)"
+        [value]="programmermode">
+        <label class="custom-control-label" for="customSwitches">Modo prueba</label>
+      </div>
+   </div>
+     <div class="row">
+      <img src="assets/images/upload-file.png" alt="upload icon" id="upload-icon" class="img-thumbnai allign-center">
+     </div>
+    <div class="row">
+      <app-select-file (fileSelected)="fileSelected($event)" class="allign-center" id="selector"></app-select-file>
+    </div>
+    <div class="row">
+      <button [hidden]="!programmerMode" type="button" class="btn btn-submit allign-center " (click)="analyzeFile()">Analizar</button>
+      <button [hidden]="programmerMode"  type="button" class="btn btn-submit allign-center " (click)="analyzeHashedFile()">Analizar - TEST</button>
+    </div>
+    <div class="row" *ngIf="file == null && errorOnFile != null">
+      <div class="text-danger allign-center"><strong>{{errorOnFile}}</strong></div>
+    </div>
+  </div>
+      <div *ngIf="fileReport">
+        <app-visualize-file [fileReport]="fileReport"></app-visualize-file>
+      </div>
+</div>
