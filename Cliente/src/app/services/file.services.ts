@@ -4,6 +4,7 @@ import {Observable, throwError} from 'rxjs';
 import {Mock} from 'protractor/built/driverProviders';
 import {MockDataServices} from '../mock-data/mock-data.services';
 import {FileReportModel} from '../model/file-report.model';
+import {HttpFileModel} from '../model/http-file.model';
 
 
 @Injectable()
@@ -15,11 +16,21 @@ export class FileServices {
     this.myAppUrl = baseUrl;
   }
 
-  uploadFile(file) {
-    const hash = '42e449fbbbe98aba4c79d1434d0b11923379faba943e888e0966766379dcdf28';
-    /*    let params = new HttpParams();
-        params = params.append('hash', hash);*/
-    return this.http.get(this.myAppUrl + 'api/VirusTotal/' + hash).subscribe(
+  uploadFile(file: HttpFileModel) {
+    return this.http.post(this.myAppUrl + 'api/values', file.fileName);
+  }
+
+  analyzeHash(hash: string) {
+    return this.http.get(this.myAppUrl + 'api/VirusTotal/' + hash);
+  }
+
+  analyzeHashMocked() {
+    return this.mockDataServices.getFileMocked().map(this.handleFileReportResponse)[0];
+  }
+
+  analyzeHashOnInternet(hash: string) {
+    const virusTotalUrl = 'https://www.virustotal.com/';
+    return this.http.get(virusTotalUrl + 'ui/files/' + hash).subscribe(
       (data) => {
         // some code
         console.log('The file was analyze');
@@ -31,27 +42,7 @@ export class FileServices {
     );
   }
 
-  uploadFileMocked(file): FileReportModel[] {
-    return this.mockDataServices.getFileMocked().map(this.handleFileReportResponse);
-  }
-
-  uploadFileToInternet(file) {
-    const hash = '42e449fbbbe98aba4c79d1434d0b11923379faba943e888e0966766379dcdf28';
-    /*    let params = new HttpParams();
-        params = params.append('hash', hash);*/
-    return this.http.get(this.myAppUrl + 'ui/files/' + hash).subscribe(
-      (data) => {
-        // some code
-        console.log('The file was analyze');
-      },
-      (error1 => {
-        console.error('An error ocurred trying to get the file info');
-        throwError(error1);
-      })
-    );
-  }
-
-  private handleFileReportResponse(res: any): FileReportModel {
+  public handleFileReportResponse(res: any): FileReportModel {
     return new FileReportModel(
       res.hash,
       res.requestResult,

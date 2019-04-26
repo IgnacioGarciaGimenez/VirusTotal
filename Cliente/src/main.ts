@@ -5,10 +5,8 @@ import {AppModule} from './app/app.module';
 import {environment} from './environments/environment';
 
 export function getBaseUrl() {
-  // const baseUrlmocked = 'https://www.virustotal.com/';
   const baseUrlmocked = 'http://localhost:59905/';
   return baseUrlmocked;
-  // return document.getElementsByTagName('base')[0].href;
 }
 
 const providers = [
